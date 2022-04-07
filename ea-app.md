@@ -9,10 +9,6 @@ curl -o ~/.cache/wine/wine-mono-7.2.0-x86.msi      https://dl.winehq.org/wine/wi
 curl -o ~/.cache/wine/wine-gecko-2.47.2-x86.msi    https://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi
 curl -o ~/.cache/wine/wine-gecko-2.47.2-x86_64.msi https://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi
 
-# We need winetricks available. You can use protontricks instead if you want
-curl -o ~/Downloads/winetricks                     https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
-chmod +x ~/Downloads/winetricks
-
 # Grab the EA App Installer
 curl -o ~/Downloads/EAappInstaller.exe             https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe
 
